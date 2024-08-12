@@ -1,9 +1,0 @@
-  =>   Name    : Sri Vinayaka Cool Tech - AC Repair Website 
-
-  =>   Link    : https://htmlcodex.com/ac-repair-website-template
-
-  =>   License : https://htmlcodex.com/license (or read the LICENSE.txt file)
-
-  =>   Author  : HTML Codex
-
-  =>  Author Website   : https://htmlcodex.com

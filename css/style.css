@@ -90,7 +90,7 @@
 
 .brand-text {
   font-size: 1.25rem;
-  white-space: nowrap; /* Prevents text from wrapping */
+  white-space: nowrap;
 }
 
 .navbar-nav .nav-item {
@@ -101,19 +101,19 @@
 /* Small Screen Adjustments */
 @media (max-width: 390px) {
   .brand-text {
-      font-size: 1rem; /* Slightly reduce font size */
+      font-size: .90rem;
   }
 
   .navbar-brand img {
-      max-width: 25px; /* Slightly reduce logo size */
+      max-width: 20px; 
   }
 
   .navbar-toggler {
-      padding: 0.25rem 0.5rem; /* Reduce padding on the hamburger icon */
+      padding: 0.25rem 0.5rem; 
   }
 
   .navbar-collapse {
-      text-align: center; /* Center align the collapsed menu */
+      text-align: center; 
   }
 }
 .navbar.sticky-top {
@@ -548,3 +548,22 @@
   }
 }
 
+
+.carousel-item .container p{
+  font-size:20px;
+}
+@media (max-width: 800px) { 
+  .carousel-item .container p{
+    font-size:15px;
+  }
+  .carousel-item .container h1{
+
+    font-size:25px;
+  }
+
+  .carousel-item .container  a{
+    width:200px;
+    height:55px;
+    margin-bottom:20px;
+  }
+}

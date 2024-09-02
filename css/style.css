@@ -75,7 +75,47 @@
   font-weight: normal;
 }
 
-/*** Navbar ***/
+.brand-logo {
+  max-width: 30px;
+}
+
+.brand-text {
+  font-size: 1.25rem;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.brand-text {
+  font-size: 1.25rem;
+  white-space: nowrap; /* Prevents text from wrapping */
+}
+
+.navbar-nav .nav-item {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+/* Small Screen Adjustments */
+@media (max-width: 390px) {
+  .brand-text {
+      font-size: 1rem; /* Slightly reduce font size */
+  }
+
+  .navbar-brand img {
+      max-width: 25px; /* Slightly reduce logo size */
+  }
+
+  .navbar-toggler {
+      padding: 0.25rem 0.5rem; /* Reduce padding on the hamburger icon */
+  }
+
+  .navbar-collapse {
+      text-align: center; /* Center align the collapsed menu */
+  }
+}
 .navbar.sticky-top {
   top: -100px;
   transition: 0.5s;
@@ -481,3 +521,30 @@
 .footer .copyright a:hover {
   color: #ffffff;
 }
+
+
+.carousel-caption p {
+  font-size: 1.25rem; 
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+}
+
+
+@media (max-width: 768px) { 
+  .carousel-caption p {
+      font-size: .2rem; 
+  }
+}
+
+@media (max-width: 576px) { 
+  .carousel-caption p {
+      font-size: 0.2rem; 
+  }
+}
+
+@media (max-width: 400px) { 
+  .carousel-caption p {
+      font-size: 0.2rem; 
+  }
+}
+
